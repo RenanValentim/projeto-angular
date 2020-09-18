@@ -1,0 +1,35 @@
+<div class="main-register">
+    <img src="assets/img/logo-header.png" alt="logo">
+    <mat-card class="box-register">
+        <div class="box-form">
+            <form>
+                <mat-form-field>
+                    <mat-label>Nome Completo:</mat-label>
+                    <input matInput placeholder="Insira seu nome" required>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>E-mail:</mat-label>
+                    <input matInput placeholder="Insira seu e-mail" type="email" required>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Fone:</mat-label>
+                    <input matInput placeholder="Insira seu telefone" type="tel">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Usuario do Sistema:</mat-label>
+                    <input matInput placeholder="Insira seu usuario" required>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Senha</mat-label>
+                    <input matInput placeholder="Insira sua senha" type="password" required>
+                </mat-form-field>
+            </form>
+        </div>
+        <button mat-raised-button color="accent" routerLink= "/login">
+            Salvar
+        </button>
+        <button mat-raised-button color="link" routerLink="/login"> 
+            Voltar
+        </button>
+    </mat-card>
+</div>

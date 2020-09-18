@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;   
+  
+}
+
+.header img{
+    width: 10vh;
+    height: 3vh;
+}
+
+
+.avatar{
+    background-image: url('/assets/img/Eu.jpg');
+    background-size: cover;
+}

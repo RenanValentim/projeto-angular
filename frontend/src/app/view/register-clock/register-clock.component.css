@@ -1,0 +1,41 @@
+.title{
+    background-color: #e7e1e1;
+}
+
+.title h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    color:black;
+    text-align: center;
+}
+
+.container-input{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    background-color: black;
+    opacity: 0.85;
+}
+
+.container-input .mat-form-field{
+    color: #fff;
+    margin-right: 40px;
+}
+
+.container-content{
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    background-color: black;
+    opacity: 0.85;
+}
+
+.container-content h1{
+    font-family: sans-serif;
+    color:#fff;
+    text-align: center;
+    margin-bottom: 50px;
+}
